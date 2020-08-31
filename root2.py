@@ -8,6 +8,7 @@ def main():
     a = 2
     b = 5
     for i in range(10):
+        print('Steps {}: Got result {}/{}'.format(i,b-a,a))
         a,b = jisuan(a,b)
 
 
